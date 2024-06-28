@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.titulo{
+    text-align: center;
+}
+
+form{
+    margin-top: 20px;
+    width: 310px;
+    box-shadow: 0 0 20px #293241;
+    padding: 30px;
+    border-radius: 7px;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+input{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 7px;
+    background-color: #dffbfc;
+    border: 0;
+    border-radius: 5px;
+    outline-color: #3d5b81;
+    width: 80%;
+    font-family: inherit;
+    font-size: 14px;
+    color: #333; /* Color de texto */
+}
+.boton-contenedro {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 10vh;
+   gap: 20px;
+}
+
+.bton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3d5b81;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.bton:hover {
+    background-color: #6190cd;
+}
+
+.correcto{
+    /*background-color: #36c9c6;*/
+    border: 1px solid green;
+}
+.error{
+    background-color: #ff7332b1;
+    border: 1px solid red;
+    color: black;
+}
+.circleCrossNombre, .circleCrossCelular, .circleCrossCorreo{
+    margin-left: 5px;
+    color: red;
+}
+.ocultar{
+    display: none;
+    visibility: hidden;
+}
+.mensajeNombre, .mensajeCelular, .mensajeCorreo{
+    color: red;
+    font-size: small;
+}
+.circleCheckNombre, .circleCheckCelular, .circleCheckCorreo{
+    color: rgb(68, 207, 196);
+}

@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.titulo{
+    text-align: center;
+}
+form {
+    margin-top: 20px;
+    width: 310px;
+    box-shadow: 0 0 20px #293241;
+    padding: 30px;
+    border-radius: 7px;
+    background-color: #fff; /* Fondo blanco para el formulario */
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Ajuste para centrar verticalmente */
+}
+
+input {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 7px;
+    background-color: #dffbfc;
+    border: 0;
+    border-radius: 5px;
+    outline-color: #3d5b81;
+    width: 80%; /* Ajuste para el ancho con padding */
+    font-family: inherit;
+    font-size: 14px;
+    color: #333; /* Color de texto */
+}
+
+.boton-contenedro {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 10vh;
+   gap: 20px;
+}
+
+.bton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3d5b81;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.bton:hover {
+    background-color: #6190cd;
+}
+
+.correcto {
+    /*background-color: #36c9c6;*/
+    border: 1px solid green(158, 60, 60);
+}
+
+.error {
+    background-color: #ff7332b1; /* Color de fondo para estado de error */
+    border: 1px solid red;
+}
+
+.circleCrossNombre,
+.circleCrossCantidad,
+.circleCrossPrecio,
+.circleCrossDescripcion {
+    margin-left: 5px;
+    color: red;
+}
+
+.ocultar {
+    display: none;
+    visibility: hidden;
+}
+
+.mensajeNombre,
+.mensajeCantidad,
+.mensajePrecio,
+.mensajeDescripcion {
+    color: red;
+    font-size: small;
+}
+
+.circleCheckNombre,
+.circleCheckCantidad,
+.circleCheckPrecio,
+.circleCheckDescripcion {
+    color: rgb(68, 207, 196);
+}
